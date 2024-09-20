@@ -14,6 +14,7 @@ https://forest-people.sakura.ne.jp/index.php
 
 本当は↑のページから、以下の2つのページに遷移するはずなのですが、
 show_pageに飛ばなくなってしまいましたので、以下のページからみてください。
+
 https://forest-people.sakura.ne.jp/new_page.php
 
 https://forest-people.sakura.ne.jp/show_page.php
