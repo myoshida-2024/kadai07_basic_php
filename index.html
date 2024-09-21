@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ランチメモ</title>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/sample.css" />
+  </head>
+
+  <div class="mainvisual">
+    <div class="layer layer-bg items-start">
+      <div class="layer-txt">
+        <p class="text-white"> Lunch Memo </p>
+      </div>
+    </div> 
+  </div>
+
+<body>
+
+<main>
+
+<!-- Initial screen  -->
+  <div id="start-screen" style="display: flex; justify-content: center; align-items: center; height: 50vh; gap:20px;">
+
+    <input type="button" id="new-button" class="image-button image-button-text" value="入力 " 
+    style="width: 240px; height: 100px; background-image: url('./img/restaurant-button.png'); 
+    background-size: cover; background-repeat: no-repeat; background-position: center; 
+    color: white; font-weight: bold; font-size: 36px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center; text-align: center;" />
+    <input type="button" id="show-button" class="image-button image-button-text" value="参照 " 
+    style="width: 240px; height: 100px; background-image: url('./img/restaurant-button.png'); 
+    background-size: cover; background-repeat: no-repeat; background-position: center; 
+    color: white; font-weight: bold; font-size: 36px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center; text-align: center;" />
+
+  </div>
+
+</main>
+
+    <footer style="font-size:medium">G's</footer>
+
+<script>
+ 
+    let obj=[];
+
+      $("main").slideDown(10);
+
+      $(document).ready(function () {
+
+        // ボタンのクリックイベントで入力画面に切り替える
+        $("#new-button").on("click", function () {
+        window.location.href = "new_page.php";
+         });
+
+        // ボタンのクリックイベントで出力画面に切り替える
+        $("#show-button").on("click", function () {
+        window.location.href = "show_page.php";
+        });
+
+});
+
+    </script>
+     <script src="./js/script.js"></script>
+  </body>
+</html>
