@@ -10,14 +10,9 @@
 
 ## ③DEMO
 
-https://forest-people.sakura.ne.jp/index.php
+https://forest-people.sakura.ne.jp/index.html
 
-本当は↑のページから、以下の2つのページに遷移するはずなのですが、
-show_pageに飛ばなくなってしまいましたので、以下のページからみてください。
-
-https://forest-people.sakura.ne.jp/new_page.php
-
-https://forest-people.sakura.ne.jp/show_page.php
+参照ボタンを押したあと、遷移にとても時間がかかっています。
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
